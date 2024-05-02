@@ -43,6 +43,7 @@ RequestBody parameter-
     "latitude":2.5
 }
 -----------------------------
+
 Finding Rides->
 
 uri - http://localhost:8080/user/findRides/1
@@ -56,6 +57,7 @@ RequestBody parameter-
 
 
 Choose Ride->
+
 uri - http://localhost:8080/user/choose_ride/1/5
 RequestBody parameter-
 
@@ -66,7 +68,7 @@ RequestBody parameter-
 
 -------------------------------
 
-Add Driver
+Add Driver->
 
 uri - localhost:8080/driver/add_driver
 RequestBody parameter-
