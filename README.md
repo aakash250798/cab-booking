@@ -22,8 +22,7 @@ Start the server
   mvn install
   and then find the jar file from the target folder and run that har as java -jar [jar name]
   --------------------------------------------------------------------------------------
-  check the port and open localhost:port in ur browser
-  Now you have options like create/view/delete blogs after you signup/login to the application
+  
 ```
   
   
