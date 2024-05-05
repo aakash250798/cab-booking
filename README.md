@@ -31,55 +31,59 @@ Start the server
 
   API Documentations
 -----------------------
-
+  
+http://localhost:port/swagger-ui/index.html  
+  
 Adding User->
 
 uri - http://localhost:8080/user/addUser
+<br />
 RequestBody parameter-
-{
-    "name":"Akash",
-    "longitude":3.0,
-    "latitude":2.5
-}
+<br />
+{  
+    "name":"Akash",  
+    "longitude":3.0,  
+    "latitude":2.5  
+}  
 -----------------------------
 
 Finding Rides->
 
-uri - http://localhost:8080/user/findRides/1
-RequestBody parameter-
-{
-   "longitude":3.5,
-   "latitude":3.2
-   }
-   
+uri - http://localhost:8080/user/findRides/1  
+RequestBody parameter-  
+{  
+   "longitude":3.5,  
+   "latitude":3.2  
+   }  
+     
 --------------------------------
 
 
-Choose Ride->
+Choose Ride->  
 
-uri - http://localhost:8080/user/choose_ride/1/5
-RequestBody parameter-
-
-{
-    "longitude":20.5,
-    "latitude":30.5
-}
+uri - http://localhost:8080/user/choose_ride/1/5  
+RequestBody parameter-  
+  
+{  
+    "longitude":20.5,  
+    "latitude":30.5  
+}  
 
 -------------------------------
 
-Add Driver->
-
-uri - localhost:8080/driver/add_driver
-RequestBody parameter-
-{
-    "name":"Vineet",
-    "vehicleNumber":"KA-42-AJ-9178",
-    "longitude":20.5,
-    "latitude":62
-}
+Add Driver->  
+  
+uri - localhost:8080/driver/add_driver  
+RequestBody parameter-  
+{  
+    "name":"Vineet",  
+    "vehicleNumber":"KA-42-AJ-9178",  
+    "longitude":20.5,  
+    "latitude":62  
+}  
 ---------------------------
-
-Get All Drivers List
-
-uri - localhost:8080/driver/getAll
+  
+Get All Drivers List  
+  
+uri - localhost:8080/driver/getAll  
 
